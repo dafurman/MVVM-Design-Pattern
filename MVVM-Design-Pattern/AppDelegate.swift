@@ -12,10 +12,39 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    enum BindingPattern {
+        case observable, KVO
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        // (Initializer) Dependency Injection 🤗
+        // Model -> View Model -> View Controller
+        let viewController: UIViewController = {
+            #warning("Change bindingPattern if desired to try other patterns.")
+            let bindingPattern: BindingPattern = .KVO
+            let viewModel: ViewModel = {
+                switch bindingPattern {
+                case .observable:
+                    let user = ObservableUser(name: Observable("David Furman"))
+                    return ObservableViewModel(user: user)
+                case .KVO:
+                    let user = KVOUser(name: "David Furman")
+                    return KVOViewModel(user: user)
+                }
+            }()
+            
+            return ViewController(viewModel: viewModel)
+        }()
+        
+        window?.rootViewController = viewController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

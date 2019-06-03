@@ -9,19 +9,38 @@
 /* Begin PBXBuildFile section */
 		DC38D82322A477D10074BDE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D82222A477D10074BDE4 /* AppDelegate.swift */; };
 		DC38D82522A477D10074BDE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D82422A477D10074BDE4 /* ViewController.swift */; };
-		DC38D82822A477D10074BDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC38D82622A477D10074BDE4 /* Main.storyboard */; };
 		DC38D82A22A477D30074BDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC38D82922A477D30074BDE4 /* Assets.xcassets */; };
 		DC38D82D22A477D30074BDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC38D82B22A477D30074BDE4 /* LaunchScreen.storyboard */; };
+		DC38D83722A477FA0074BDE4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D83622A477FA0074BDE4 /* Observable.swift */; };
+		DC38D83922A4795C0074BDE4 /* BoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D83822A4795C0074BDE4 /* BoundTextField.swift */; };
+		DC38D83B22A47D020074BDE4 /* ObservableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D83A22A47D020074BDE4 /* ObservableViewModel.swift */; };
+		DC38D83D22A47ECE0074BDE4 /* KVOUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D83C22A47ECE0074BDE4 /* KVOUser.swift */; };
+		DC38D83F22A47FCD0074BDE4 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC38D83E22A47FCD0074BDE4 /* View.xib */; };
+		DC38D84122A480A70074BDE4 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84022A480A70074BDE4 /* UIViewController+Extensions.swift */; };
+		DC38D84322A480D30074BDE4 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84222A480D30074BDE4 /* NSObject+Extensions.swift */; };
+		DC38D84622A4813C0074BDE4 /* KVOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84522A4813C0074BDE4 /* KVOViewModel.swift */; };
+		DC38D84922A488510074BDE4 /* ObservableUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84822A488510074BDE4 /* ObservableUser.swift */; };
+		DC38D84B22A488B90074BDE4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84A22A488B90074BDE4 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC38D81F22A477D10074BDE4 /* MVVM-Design-Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Design-Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC38D82222A477D10074BDE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC38D82422A477D10074BDE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC38D82722A477D10074BDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC38D82922A477D30074BDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC38D82C22A477D30074BDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC38D82E22A477D30074BDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC38D83622A477FA0074BDE4 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		DC38D83822A4795C0074BDE4 /* BoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundTextField.swift; sourceTree = "<group>"; };
+		DC38D83A22A47D020074BDE4 /* ObservableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewModel.swift; sourceTree = "<group>"; };
+		DC38D83C22A47ECE0074BDE4 /* KVOUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOUser.swift; sourceTree = "<group>"; };
+		DC38D83E22A47FCD0074BDE4 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		DC38D84022A480A70074BDE4 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		DC38D84222A480D30074BDE4 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		DC38D84522A4813C0074BDE4 /* KVOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewModel.swift; sourceTree = "<group>"; };
+		DC38D84722A482820074BDE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC38D84822A488510074BDE4 /* ObservableUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableUser.swift; sourceTree = "<group>"; };
+		DC38D84A22A488B90074BDE4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +73,48 @@
 		DC38D82122A477D10074BDE4 /* MVVM-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				DC38D84722A482820074BDE4 /* README.md */,
 				DC38D82222A477D10074BDE4 /* AppDelegate.swift */,
 				DC38D82422A477D10074BDE4 /* ViewController.swift */,
-				DC38D82622A477D10074BDE4 /* Main.storyboard */,
+				DC38D83622A477FA0074BDE4 /* Observable.swift */,
+				DC38D83822A4795C0074BDE4 /* BoundTextField.swift */,
+				DC38D83E22A47FCD0074BDE4 /* View.xib */,
+				DC38D84D22A4932B0074BDE4 /* View Models */,
+				DC38D84C22A493250074BDE4 /* Models */,
+				DC38D84422A480EC0074BDE4 /* Extensions */,
 				DC38D82922A477D30074BDE4 /* Assets.xcassets */,
 				DC38D82B22A477D30074BDE4 /* LaunchScreen.storyboard */,
 				DC38D82E22A477D30074BDE4 /* Info.plist */,
 			);
 			path = "MVVM-Design-Pattern";
+			sourceTree = "<group>";
+		};
+		DC38D84422A480EC0074BDE4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC38D84022A480A70074BDE4 /* UIViewController+Extensions.swift */,
+				DC38D84222A480D30074BDE4 /* NSObject+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC38D84C22A493250074BDE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC38D84822A488510074BDE4 /* ObservableUser.swift */,
+				DC38D83C22A47ECE0074BDE4 /* KVOUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC38D84D22A4932B0074BDE4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC38D84A22A488B90074BDE4 /* ViewModel.swift */,
+				DC38D84522A4813C0074BDE4 /* KVOViewModel.swift */,
+				DC38D83A22A47D020074BDE4 /* ObservableViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC38D83F22A47FCD0074BDE4 /* View.xib in Resources */,
 				DC38D82D22A477D30074BDE4 /* LaunchScreen.storyboard in Resources */,
 				DC38D82A22A477D30074BDE4 /* Assets.xcassets in Resources */,
-				DC38D82822A477D10074BDE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +188,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC38D84322A480D30074BDE4 /* NSObject+Extensions.swift in Sources */,
+				DC38D83D22A47ECE0074BDE4 /* KVOUser.swift in Sources */,
+				DC38D83722A477FA0074BDE4 /* Observable.swift in Sources */,
+				DC38D84B22A488B90074BDE4 /* ViewModel.swift in Sources */,
+				DC38D84622A4813C0074BDE4 /* KVOViewModel.swift in Sources */,
 				DC38D82522A477D10074BDE4 /* ViewController.swift in Sources */,
+				DC38D84922A488510074BDE4 /* ObservableUser.swift in Sources */,
+				DC38D83922A4795C0074BDE4 /* BoundTextField.swift in Sources */,
+				DC38D84122A480A70074BDE4 /* UIViewController+Extensions.swift in Sources */,
 				DC38D82322A477D10074BDE4 /* AppDelegate.swift in Sources */,
+				DC38D83B22A47D020074BDE4 /* ObservableViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC38D82622A477D10074BDE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC38D82722A477D10074BDE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC38D82B22A477D30074BDE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
