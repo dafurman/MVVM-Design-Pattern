@@ -21,6 +21,7 @@
 		DC38D84622A4813C0074BDE4 /* KVOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84522A4813C0074BDE4 /* KVOViewModel.swift */; };
 		DC38D84922A488510074BDE4 /* ObservableUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84822A488510074BDE4 /* ObservableUser.swift */; };
 		DC38D84B22A488B90074BDE4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38D84A22A488B90074BDE4 /* ViewModel.swift */; };
+		DC38D84F22A4ABF10074BDE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DC38D84E22A4ABF10074BDE4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +39,9 @@
 		DC38D84022A480A70074BDE4 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		DC38D84222A480D30074BDE4 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
 		DC38D84522A4813C0074BDE4 /* KVOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewModel.swift; sourceTree = "<group>"; };
-		DC38D84722A482820074BDE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DC38D84822A488510074BDE4 /* ObservableUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableUser.swift; sourceTree = "<group>"; };
 		DC38D84A22A488B90074BDE4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DC38D84E22A4ABF10074BDE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		DC38D81622A477D10074BDE4 = {
 			isa = PBXGroup;
 			children = (
+				DC38D84E22A4ABF10074BDE4 /* README.md */,
 				DC38D82122A477D10074BDE4 /* MVVM-Design-Pattern */,
 				DC38D82022A477D10074BDE4 /* Products */,
 			);
@@ -73,7 +75,6 @@
 		DC38D82122A477D10074BDE4 /* MVVM-Design-Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				DC38D84722A482820074BDE4 /* README.md */,
 				DC38D82222A477D10074BDE4 /* AppDelegate.swift */,
 				DC38D82422A477D10074BDE4 /* ViewController.swift */,
 				DC38D83622A477FA0074BDE4 /* Observable.swift */,
@@ -177,6 +178,7 @@
 			files = (
 				DC38D83F22A47FCD0074BDE4 /* View.xib in Resources */,
 				DC38D82D22A477D30074BDE4 /* LaunchScreen.storyboard in Resources */,
+				DC38D84F22A4ABF10074BDE4 /* README.md in Resources */,
 				DC38D82A22A477D30074BDE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
