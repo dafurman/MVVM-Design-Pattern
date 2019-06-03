@@ -17,7 +17,6 @@ ViewController accepts two different view models. One implements binding using K
 
 ## Thoughts Regarding MVVM Implementation
 
-Interestingly, the book has this statement:
 > “The goal is that your view model should wrap your model entirely – **the view layer should have no concept of the model existing.** When building your view model, remember one of the big wins is to make it testable without involvement from UIKit or AppKit: your view controller should take your UITextField (or UISwitch, UIButton, etc) and **send its value into the view model rather than the object itself**.” - Excerpt From: Paul Hudson. “Swift Design Patterns.” Apple Books. 
 
 Under this goal, any implementation of MVVM where the model is not private to the view model wouldn't be fully adhering to MVVM principles, because then the view layer would have a concept of the model existing.
