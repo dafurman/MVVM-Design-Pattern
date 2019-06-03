@@ -27,7 +27,7 @@ Using the Observable wrapper example in the book, The BoundTextField, a *view*, 
 
 However, most implementations of MVVM do seem to ignore this principle as well, choosing to bind views to models directly. Frameworks such as RxSwift and Bond and just about every tutorial demonstrate that pretty clearly.
 
-It's as if there are two distinct ideas of what MVVM is:
+There seem to be two distinct ideas of what MVVM is:
 
 1. [**"Separated"**](https://i0.wp.com/techtales.co/wp-content/uploads/2017/08/MVVM.png?fit=770%2C230) MVVM, where the view and model have no knowledge of each other. I've yet to run across a code implementation of this in Swift, yet most diagrams of MVVM demonstrate this.
 
