@@ -3,11 +3,13 @@
 
 ## This repository includes an implementation of the ideas presented in Paul Hudson's Swift Design Patterns (2019 - Swift 5, iOS 12)
 
-It demonstrates two ways that MVVM binding can occur:
+It demonstrates common patterns to implement MVVM binding:
 
 1. Through an Observable wrapper around a model, mixed with callback firing.
 
 2. KVO, which is syntactically uglier and less "Swifty", but can get the job done with a bit more code.
+
+3. Not covered in this implementation, using a React framework such as [Bond](https://github.com/DeclarativeHub/Bond), [RxSwift](https://github.com/ReactiveX/RxSwift), or Apple's shiny new [Combine](https://developer.apple.com/documentation/combine).
 
 As a extra, I wanted to do MVVM right. The example used in the book doesn't actually include a view model. Its main purpose is really to demonstrate binding, but I wanted to use an actual view model to wrap the model in.
 
