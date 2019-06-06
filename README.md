@@ -46,7 +46,7 @@ Some ideas for its use are presented, which fall in line with my usage of MVVM a
 
 > “In a real app your view model would include formatting of values (for example converting a Date into a string ready for display), archiving and unarchiving of data, and perhaps even networking code.” - Excerpt From: Paul Hudson. “Swift Design Patterns.” Apple Books. 
 
-However, it does feel there's no concrete definition of what a View Model's responsibility should be, other than being a miscellaneous dumping ground of responsibility:
+However, it does feel there's no concrete definition of what a view model's responsibility should be, other than being a miscellaneous dumping ground of non-view responsibility:
 
 > “[...] similar to MVC I think it’s fair to say that MVVM separates responsibilities reasonably well enough that beginners can understand it: models store data, views store visual representations of data, and **everything else goes into the view model**. At least with MVVM putting “everything else” into the view model feels dubious, so developers might be inspired to split it off." -Excerpt From: Paul Hudson. “Swift Design Patterns.” Apple Books. 
 
