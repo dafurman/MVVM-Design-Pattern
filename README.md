@@ -31,7 +31,7 @@ There seem to be two distinct ideas of what MVVM is:
 
 1. [**"Separated"**](https://i0.wp.com/techtales.co/wp-content/uploads/2017/08/MVVM.png?fit=770%2C230) MVVM, where the view and model have no knowledge of each other. I've yet to run across a code implementation of this in Swift, yet most diagrams of MVVM demonstrate this.
 
-2. [**"Bound"**](https://miro.medium.com/max/1751/1*iwgAHz3uZGqyk3OhOOjgyg.jpeg) MVVM,
+2. [**"Bound"**](https://i.imgur.com/Flq90tQ.png) MVVM,
     For convenience, views are bound to a property on the view model's model via KVO, an Observable wrapper, or a library that gives binding capabilities and takes away the boilerplate. Every implementation of MVVM I've run across in Swift follows this pattern to some degree. 
     
     Microsoft acknowledges this style of MVVM as well
